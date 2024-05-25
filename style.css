@@ -1,0 +1,47 @@
+* {
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header{
+    border: 3px solid blue;
+    width: 100%; /* Full width of the viewport */
+    height: 600px; /* Adjust height as needed */
+    width: 100%; /* Full width of the viewport */
+    height: 100%; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Background color or use an image */
+    display: flex; /* Use flexbox to center content */
+    justify-content: space-between; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text */
+    justify-content: space-around;
+   
+}
+
+.logo {
+    display: flex;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+#logo {
+    padding-bottom: 0%;
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: auto;
+    margin-top: auto;
+    
+}
+
